@@ -9,7 +9,7 @@ COPY . .
 
 # Install Node.js dependencies using npm
 RUN npm i
-
+#hai
 # Copy the .env.sample file from the current directory to .env.local inside the container
 COPY .env.sample .env.local
 
